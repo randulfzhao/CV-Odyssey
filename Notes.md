@@ -23,3 +23,17 @@ with $I$ denoting image, $L$ denoting label, $T$ denoting time serise action
 - [[low-level vision]]
 - geometry
 - recognition and application
+
+
+# 4. Neural Network
+
+Typically, a neural network is formulated as below:![[NN structure.png]]
+
+For Computer vision tasks, the inputs are images or video frames.The architecture includes
+- layers: in form of non-linear, convolution, dense layers, etc
+- modules / blocks: including inception module, MLP mixer, ConvMixer etc
+- connections: dense, skip, addition, concatenation, similarity etc
+- Isotropic network: same size-shape throughout, e.g. transformer, ConvMixer
+- Mechanism: self-attention, etc
+
+The objective / cost functions is defined as the goal that we are trying to optimize
